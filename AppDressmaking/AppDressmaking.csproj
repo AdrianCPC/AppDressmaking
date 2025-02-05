@@ -85,9 +85,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Data\ConexionBD.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Administrador.cs" />
+    <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\DetallePedido.cs" />
+    <Compile Include="Models\Empleado.cs" />
+    <Compile Include="Models\Inventario.cs" />
+    <Compile Include="Models\Material.cs" />
+    <Compile Include="Models\Pedido.cs" />
+    <Compile Include="Models\Reporte.cs" />
+    <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -102,7 +112,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
