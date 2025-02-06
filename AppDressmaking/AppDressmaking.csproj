@@ -85,7 +85,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Data\ClienteData.cs" />
     <Compile Include="Data\ConexionBD.cs" />
+    <Compile Include="Data\DetallePedidoData.cs" />
+    <Compile Include="Data\InventarioData.cs" />
+    <Compile Include="Data\MaterialData.cs" />
+    <Compile Include="Data\PedidoData.cs" />
+    <Compile Include="Data\ReporteData.cs" />
+    <Compile Include="Data\UsuarioData.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
