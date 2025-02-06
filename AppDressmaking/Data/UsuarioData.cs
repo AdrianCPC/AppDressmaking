@@ -57,6 +57,7 @@ namespace AppDressmaking.Data
                     {
                         idUsuario = reader.GetInt32(0),
                         nombreUsuario = reader.GetString(1),
+                        contrasena = reader.GetString(1), //Agregado ultimo
                         tipoUsuario = reader.GetString(2)[0],
                         FechaIngreso = reader.GetDateTime(3)
                     });
